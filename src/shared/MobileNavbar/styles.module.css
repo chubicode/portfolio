@@ -1,0 +1,43 @@
+
+.mobileNavContainer {
+  /* position: absolute;
+  width: 100vw;
+  color: black;
+  background-color: #FFFFFF;
+  top: 100%; */
+
+  display: flex;
+  /* flex-direction: column;
+  height: 300px; */
+  list-style: none;
+  flex-flow: column nowrap;
+  background-color: #0D2538;
+  position: fixed;
+  /* top: 0; */
+  right: 0;
+  height: 50vh;
+  width: 300px;
+  padding-top: 3.5rem;
+} 
+
+
+
+.mobileNavBody > p {
+flex-flow: row nowrap;
+
+}
+
+
+.mobileNavBody > p > li {
+ padding: 20px 10px;
+ color: white;
+ cursor: pointer;
+ 
+  
+  }
+  
+
+
+/* @media only screen and (max-width: 768px) {
+ 
+} */

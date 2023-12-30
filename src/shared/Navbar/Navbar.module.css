@@ -1,0 +1,28 @@
+.nav ul{
+  display: flex;
+  justify-content:flex-end;
+  gap: 2rem;
+ 
+}
+
+
+.nav{
+  padding: 40px 0;
+  background-color: #001C30;
+  /* position: relative; */
+}
+
+
+.nav ul li{
+  list-style: none;
+  color: skyblue;
+  cursor: pointer;
+}
+
+
+/* apply media query, so that at a particular point the hamburger menu shows. we will have to make the navbar disappear to introduce the hamburger menu hence the code below//*/
+@media only screen and (max-width: 768px){
+.nav ul li{
+  display: none;
+}
+}

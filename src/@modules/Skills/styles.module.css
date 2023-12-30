@@ -1,0 +1,48 @@
+.skills{
+  background-color: #001C30;
+  padding: 60px 0;
+
+}
+
+
+
+.skillscontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+
+ 
+
+  img{
+    border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   padding: 20px;
+  
+   
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+
+  .skillscontainer{
+    
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+  
+    img{
+    border-radius: 50%;
+     width: 200px;
+     height: 200px;
+     object-fit: cover;
+     padding: 20px;
+     
+    }
+  
+  }
+}
+  

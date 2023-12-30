@@ -1,0 +1,41 @@
+
+
+.contactcontainer{
+background-color: #176B87;
+box-shadow: 1px 1px 3px 2px #ddd;
+margin: 40px auto;
+max-width: 600px;
+max-height: 700px;
+padding: 20px 40px;
+  
+}
+
+.contact{
+  color: white;
+
+input, textarea{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  
+}
+
+span{
+color: aquamarine;
+}
+
+button{
+  height: 40px;
+  width: 70px;
+  align-items: center;
+  background-color: turquoise;
+  border: none;
+  cursor: pointer;
+  
+}
+
+} 

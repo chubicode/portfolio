@@ -1,0 +1,9 @@
+/* // This container will contain the full webpage. so that it stays in the center. This will also simplify application of our media query, the maxwidth here says that the container should not exceed a maximum width of 1440px. it ensures that the container doesn't become too wide on wider screens   */
+
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 35px;
+
+}
