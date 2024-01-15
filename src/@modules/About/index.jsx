@@ -4,12 +4,12 @@ import Container from "../../shared/Container"
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <div className={styles.about}>
         <Container>
           <div className={styles.aboutContainer}>
             <div>
-              <img src="/assets/chubi.png" />
+              <img src="/assets/chubi.png" alt="a"/>
             </div>
             <div className={styles.aboutContainerTextsection}>
               <h1>About Me</h1>

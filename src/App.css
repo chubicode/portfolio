@@ -1,9 +1,10 @@
-/* // This is a universal setting on the webpage which has to be done. A container also hs o be set, this gives a form of central point to apply universal setting, helps with media query settings also and page alignment. the * says this should be of high priority  */
+/* // This is a universal setting on the webpage which has to be done. A container also has to be set, this gives a form of central point to apply universal setting, helps with media query settings also and page alignment. the * says this should be of high priority  */
 
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  
  }
  
 

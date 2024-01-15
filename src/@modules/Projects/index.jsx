@@ -4,7 +4,7 @@ import Container from "../../shared/Container"
 
  const Projects = () => {
   return (
-    <div> 
+    <div id="projects"> 
     <div className={styles.projectcontainer}>
       <Container>
         <div className={styles.projecttextsection}>
@@ -13,15 +13,15 @@ import Container from "../../shared/Container"
         </div>
         <div className={styles.projectmainsection}>
           <div>
-            <img src="/assets/dog-img.jpg"/>
+            <img src="/assets/dog-img.jpg" alt="a borwn dog"/>
             <p>Tin Dog</p>
           </div>
           <div>
-            <img src="/assets/mondrian.jpg"/>
+            <img src="/assets/mondrian.jpg" alt="a painting"/>
             <p>Mondrian Art</p>
           </div>
           <div>
-            <img src="/assets/chubi.png"/>
+            <img src="/assets/chubi.png" alt="Chubi in a blue suit"/>
             <p>Resume</p>
           </div>
         </div>

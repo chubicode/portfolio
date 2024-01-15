@@ -4,28 +4,28 @@ import Container from "../../shared/Container"
 
  const Skills = () => {
   return (
-<div>
+<div id="skills">
   <div className={styles.skills}>
     <Container>
     <div className={styles.skillscontainer}>
     <div>
-      <img src="/assets/html5.png"/>
+      <img src="/assets/html5.png" alt="logo"/>
       </div>
        
       <div>
-      <img src="/assets/css.jpeg"/>
+      <img src="/assets/css.jpeg" alt="log"/>
       </div>
 
       <div>
-      <img src="/assets/bootstrap.png"/>
+      <img src="/assets/bootstrap.png" alt="logo"/>
       </div>
 
       <div>
-      <img src="/assets/react.png"/>
+      <img src="/assets/react.png" alt="logo"/>
       </div>
 
       <div>
-      <img src="/assets/node.jpg"/>
+      <img src="/assets/node.jpg" alt="logo"/>
       </div>
 
 

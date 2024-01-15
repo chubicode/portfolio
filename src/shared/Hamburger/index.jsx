@@ -5,7 +5,7 @@
 
 /* we will be passing an onClick event stating that when the hamburger is clicked something must happen. we created a function called Hamburger and passed in a prop called handleClick (destructuring)//*/
 
-
+import React from "react"
 import styles from "./styles.module.css";
 
 

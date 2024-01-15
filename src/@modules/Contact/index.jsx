@@ -45,7 +45,7 @@ const handleSubmit =(e)=>{
 
 
 <Container>
-<div className={styles.contact}>
+<div id="contacts" className={styles.contact}>
 <h1>Contact <span>Me</span></h1>
       <input type="text" name="name" id="" onChange={handleChange} value={data.name} placeholder="Enter Name"/>
       <input type="email" name="email" id="" onChange={handleChange} value={data.email}   placeholder="example@gmail.com"/>
